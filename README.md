@@ -21,7 +21,28 @@ cd /var/spool/cron/crontabs
 crontab -e
 ```
 - To edit the crontab file for any other user
-  ```
-  sudo crontab -u <username> -e
-  ```
-  
+```
+sudo crontab -u <username> -e
+```
+# Tutorial 
+- Run a cron job every 15 minutes
+```
+*/15 * * * * command/script
+```
+- Run a cron job at 5 am every day
+```
+0 5 * * * command/script
+```
+- Run a cron job at 5 pm every day
+```
+0 17 * * * command/script
+```
+- Run a cron job at 9 am on the first day of every month
+```
+0 9 1 * * command/script
+```
+- Run a cron job every 5 hours
+```
+0 */5 * * * command/script
+```
+
