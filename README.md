@@ -6,7 +6,7 @@
 - Crond is the daemon in the Linux system that runs in the background and checks every minute to see if there is any job scheduled at that time. If there is, it performs that job, else it remains inactive.
 
 # Syntax of cronjob
-- ***** (msdmw) command/script
+- ***** (mhdmw) command/script
 - crontab file location
 ```
 cat /etc/crontab
